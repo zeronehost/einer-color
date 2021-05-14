@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "test": "node __test__/index.test.js",
+    "test": "node __tests__/index.test.js",
     "lint": "eslint --fix",
     "format": "prettier -w ."
   },

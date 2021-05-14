@@ -1,0 +1,37 @@
+{
+  "name": "einer-color",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "jinbin",
+  "license": "MPL-2.0",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "keywords": [
+    "color",
+    "terminal",
+    "bash"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node __test__/index.test.js",
+    "lint": "eslint --fix",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeronehost/einer-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeronehost/einer-color/issues"
+  },
+  "homepage": "https://github.com/zeronehost/einer-color#readme",
+  "devDependencies": {
+    "rollup": "^2.47.0"
+  },
+  "dependencies": {
+    "einer-type": "^0.0.2"
+  }
+}

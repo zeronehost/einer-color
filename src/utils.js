@@ -2,7 +2,6 @@ import { isString, isFunction, isObject } from "einer-type";
 
 const isValue = (value) => value !== void 0 && value !== null;
 
-
 export const forEachRight = (arr, callback) => {
   try {
     arr.reverse().forEach(callback);
@@ -14,7 +13,7 @@ export const forEachRight = (arr, callback) => {
 };
 
 export const firstKey = (obj) => {
-  if(isObject(obj)) {
+  if (isObject(obj)) {
     for (const k in obj) {
       if (Object.hasOwnProperty.call(obj, k)) return k;
     }

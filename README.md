@@ -4,13 +4,13 @@
 
 ## 安装
 
-### npm 
+### npm
 
 ```bash
 npm install einer-color
 ```
 
-### yarn 
+### yarn
 
 ```bash
 yarn add einer-color
@@ -20,38 +20,38 @@ yarn add einer-color
 
 ### 前景色
 
-* `black`
-* `red`
-* `green`
-* `yellow`
-* `blue`
-* `magenta`
-* `cyan`
-* `white`
+- `black`
+- `red`
+- `green`
+- `yellow`
+- `blue`
+- `magenta`
+- `cyan`
+- `white`
 
 ### 背景色
 
-* `bgBlack`
-* `bgRed`
-* `bgGreen`
-* `bgYellow`
-* `bgBlue`
-* `bgMagenta`
-* `bgCyan`
-* `bgWhite`
+- `bgBlack`
+- `bgRed`
+- `bgGreen`
+- `bgYellow`
+- `bgBlue`
+- `bgMagenta`
+- `bgCyan`
+- `bgWhite`
 
 ### 样式
 
-* `blod`
-* `italic`
-* `underline`
-* `blink`
-* `inverse`
-* `strike`
+- `blod`
+- `italic`
+- `underline`
+- `blink`
+- `inverse`
+- `strike`
 
 ### 其他
 
-* `reset` 重置
+- `reset` 重置
 
 ## 示例
 

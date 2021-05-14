@@ -21,5 +21,5 @@ module.exports = {
     "no-empty-pattern": "error", // 不允许空块语句
     "space-infix-ops": "error", // 强制二元运算符左右各有一个空格
     "no-const-assign": "error", // 不能修改使用const关键字声明的变量
-  }
+  },
 };

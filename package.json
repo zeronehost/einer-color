@@ -32,6 +32,6 @@
     "rollup": "^2.47.0"
   },
   "dependencies": {
-    "einer-type": "^0.0.2"
+    "einer-type": "*"
   }
 }

@@ -22,6 +22,8 @@ const render = function (...args) {
       );
     }
   });
+  // fix 样式无法重置bug
+  render._color = Object.create(null);
   return enableColor ? `${start}${msg}${end}` : msg;
 };
 
@@ -36,7 +38,7 @@ const proto = Object.create(
             return Object.defineProperty(
               getFn(),
               "_color",
-              d(Object.assign({}, this._color, mod))
+              d(Object.assign(Object.create(null), this._color, mod))
             );
           }),
         ];
@@ -50,6 +52,6 @@ function getFn() {
 }
 
 export default Object.defineProperties(getFn(), {
-  _color: d("", {}),
+  _color: d("", Object.create(null)),
   reset: d("", () => reset),
 });

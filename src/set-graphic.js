@@ -23,7 +23,7 @@ sgr.CSI = CSI;
 sgr.mods = Object.assign(
   // 样式
   {
-    blod: { _blod: [1, 22] }, // 加粗
+    bold: { _bold: [1, 22] }, // 加粗
     italic: { _italic: [3, 23] }, // 斜体
     underline: { _inderline: [4, 24] }, // 下划线
     blink: { _blink: [5, 25] }, // 闪烁

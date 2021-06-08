@@ -42,7 +42,7 @@ yarn add einer-color
 
 ### 样式
 
-- `blod`
+- `bold`
 - `italic`
 - `underline`
 - `blink`

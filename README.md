@@ -58,5 +58,5 @@ yarn add einer-color
 ```javascript
 const einerColor = require("einer-color");
 
-console.log(einerColor.bgGreen.white.blod(" einer-color "));
+console.log(einerColor.bgGreen.white.bold("einer-color"));
 ```
